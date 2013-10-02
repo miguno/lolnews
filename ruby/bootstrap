@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+#
+# File:         bootstrap
+# Description:  This script bootstraps the Ruby environment of lolnews for first use after a fresh checkout.
+
+echo "Preparing Ruby environment..."
+curl -L https://raw.github.com/miguno/ruby-bootstrap/master/ruby-bootstrap.sh | bash -s
