@@ -14,7 +14,7 @@ else
 fi
 ### Environment setup: END
 
-NEWS_URL='http://beta.eune.leagueoflegends.com/news/'
+NEWS_URL='http://beta.na.leagueoflegends.com/en/news/'
 
 # Force bash to split strings only at newlines but not at other whitespace like " "
 IFS=$'\n'

@@ -10,7 +10,7 @@ We want to implement a simple tool to download the latest news headings for the 
 
 News headings shall be downloaded from the following URL:
 
-* [http://beta.eune.leagueoflegends.com/news/](http://beta.eune.leagueoflegends.com/news/)
+* [http://beta.na.leagueoflegends.com/en/news/](http://beta.na.leagueoflegends.com/en/news/)
 
 The tool shall output a list of news headings, one record per line, in the format `<counter> => <heading>`.
 

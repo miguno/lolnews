@@ -1,7 +1,7 @@
 (ns lolnews.core
   (:require [net.cgrand.enlive-html :as html]))
 
-(def news-url "http://beta.eune.leagueoflegends.com/news/")
+(def news-url "http://beta.na.leagueoflegends.com/en/news/")
 
 (defn fetch-url
   "Downloads the URL from the Internet."
