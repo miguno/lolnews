@@ -19,7 +19,7 @@ NEWS_URL='http://beta.na.leagueoflegends.com/en/news/'
 # Force bash to split strings only at newlines but not at other whitespace like " "
 IFS=$'\n'
 
-HEADINGS=`curl -s $NEWS_URL | grep '<h4>' | sed $SED_OPTS 's/^.*<a [^>]*>([^<]+)<.*$/\1/'`
+HEADINGS=`curl --location -s $NEWS_URL | grep '<h4>' | sed $SED_OPTS 's/^.*<a [^>]*>([^<]+)<.*$/\1/'`
 
 index=1
 for heading in $HEADINGS; do
